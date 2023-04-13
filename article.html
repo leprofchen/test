@@ -1,0 +1,208 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Restaurant</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+  <body>
+    <div class="menu-bar">
+        <div class="logo"><img src="images/si.png" width="100px" alt=""></div>
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="#">Produits <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="categorie.html">Categories</a></li>
+                  <li><a href="article.html">Articles</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="stock.html">Stock</a></li>
+        <li><a href="vente.html">Vente</a></li>
+      </ul>
+      <ul class="menu-right">
+        <li><a href="utilisateur.html">Utilisateur</a></li>
+        <li>
+          <a href="#">C. Malack <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="index.html">Deconnexion</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="div_btn">
+      <form action="article_Ajouter.html">
+        <button type="submit" class="button_Add">Ajouter</button>
+      </form>
+      
+    </div>
+
+  <div class="div_btn">
+    <table class="tb_list">
+      <tr>
+        <th class="th_image">Image</th>
+        <th>Nom</th>
+        <th>Description</th>
+        <th>Prix</th>
+        <th>Catégorie</th>
+        <th class="th_action">Operations</th>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/pizza1.jpg">
+        </td>
+        <td>Caprapiquante</td>
+        <td>Chevre, Miel, Graines toastés, piment rouge</td>
+        <td>3500 FCFA</td>
+        <td>Pizza</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/pizza2.jpg">
+        </td>
+        <td>Strategia</td>
+        <td>Tomates, Mozerlla, Basilique</td>
+        <td>3500 FCFA</td>
+        <td>Pizza</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/pizza3.jpg">
+        </td>
+        <td>Naturale</td>
+        <td>Chèvre, courgettes, basilique, carottes, huile vegetale</td>
+        <td>3500 FCFA</td>
+        <td>Pizza</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/salade1.jpg">
+        </td>
+        <td>Salade Poulet betterave</td>
+        <td>Poulet, mache, betterave, avocat, croutons</td>
+        <td>4000 FCFA</td>
+        <td>Salade</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/salade2.jpg">
+        </td>
+        <td>Salade grec maison</td>
+        <td>Salade, tomates, olives, feta, oignons basilique</td>
+        <td>4000 FCFA</td>
+        <td>Salade</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/salade3.jpg">
+        </td>
+        <td>Salade tomates mozarella</td>
+        <td>Tomates, mozarella, salade, maches, epinard</td>
+        <td>4000 FCFA</td>
+        <td>Salade</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/burger1.jpg">
+        </td>
+        <td>Légendaire</td>
+        <td>1 steak + bacon + chedar</td>
+        <td>1500 FCFA</td>
+        <td>Burger</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/burger2.jpg">
+        </td>
+        <td>Villageois</td>
+        <td>1 steak + chedar + salade + oignons</td>
+        <td>1500 FCFA</td>
+        <td>Burger</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/burger3.jpg">
+        </td>
+        <td>Basique</td>
+        <td>2 steaks + chedar</td>
+        <td>1500 FCFA</td>
+        <td>Burger</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/boisson1.jpg">
+        </td>
+        <td>Jus multifruits</td>
+        <td>Banane, orange, fraise</td>
+        <td>1000 FCFA</td>
+        <td>Boisson</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/boisson2.jpg">
+        </td>
+        <td>Jus de pastèque</td>
+        <td>La pastèque du jardin</td>
+        <td>1000 FCFA</td>
+        <td>Boisson</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="tb_image" src="images/boisson3.jpg">
+        </td>
+        <td>Café</td>
+        <td>Nexpresso, café, ..</td>
+        <td>1000 FCFA</td>
+        <td>Boisson</td>
+        <td>
+          <button class="button_Upd"><a href="article_Modifier.html">Modifier</a></button> <button class="button_Dlt"><a href="article_Supprimer.html">Supprimer</a></button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+    <div class="hero">
+      &nbsp;
+    </div>
+  </body>
+</html>
